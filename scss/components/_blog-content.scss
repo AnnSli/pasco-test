@@ -1,0 +1,119 @@
+.blog {
+  background: $white;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 2px 1px 1px #dfdfdf;
+  box-shadow: 1px 2px 1px 1px #dfdfdf;
+  overflow: hidden;
+    .blog__picture {
+        position: relative;
+      .blog__picture-figcaption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        color: $white;
+        .blog-category {
+          text-transform: uppercase;
+        }
+        i {
+          font-size: 16px;
+        }
+      }
+    }
+    .blog__description {
+      font-size: 14px;
+      h3 {
+        font-size: 14px;
+        font-weight: bold;
+        a {
+          color: $black;
+          &:hover {
+            color: $deep-blue;
+          }
+        }
+      }
+    }
+    .blog__author {
+      font-size: 14px;
+      .blog__author-date {
+        font-size: 12px;
+        color: #878787;
+      }
+      .blog__menu {
+        color: $black;
+      }
+    }
+}
+.main-blog {
+  .blog__description {
+    font-size: 16px;
+    h3 {
+      font-size: 18px;
+    }
+  }
+}
+.vertical-blog-list__item {
+  .blog__description {
+    h3 {
+      font-size: 16px;
+    }
+  }
+  .blog__author {
+    padding-bottom: 0;
+  }
+  @media screen and (max-width: 39.9375em) {
+    .blog__picture {
+      margin-right: 0;
+    }
+    .mg-r-small {
+      margin-right: 10px;
+    }
+  }
+}
+.horizontal-blog-list__item {
+  @media screen and (max-width: 39.9375em) {
+    &:last-child {
+      .blog__picture {
+        float: left;
+        margin-right: 10px;
+      }
+      .blog__author {
+        padding-bottom: 0;
+      }
+    }
+  }
+}
+.blog-bottom-list {
+  .blog__description {
+    h3 {
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 39.9375em) {
+    .blog__picture {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+.more-btn-block  {
+  vertical-align: middle;
+  a {
+    vertical-align: middle;
+    span {
+      display: inline-block;
+    }
+    .more-btn-icon {
+      background: $white;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      text-align: center;
+      padding-top: 3px;
+    }
+  }
+}

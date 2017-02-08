@@ -1,0 +1,29 @@
+.content-wrapper {
+  padding-top: 30px;
+  position: relative;
+  .content-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    z-index: -1;
+    height: 100%;
+    overflow: hidden;
+    .content-background__left {
+      background: $light-gray;
+      height: 100%;
+      content: '';
+    }
+    .content-background__right {
+      background: $white;
+      height: 100%;
+      content: '';
+    }
+  }
+  .content {
+    display: flex;
+  }
+}
+

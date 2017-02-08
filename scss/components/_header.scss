@@ -1,0 +1,149 @@
+.header {
+  background: $black-light;
+  .header__top {
+    font-size: 16px;
+    color: $gray-light;
+    padding: 10px 0;
+    overflow: hidden;
+    a {
+      color: $gray-light;
+      padding: 0 5px;
+      &:hover {
+        color: $white;
+      }
+    }
+    .settings-block {
+      text-transform: uppercase;
+      li {
+        a {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+    .settings-block-mobile {
+      a {
+        color: $white;
+        text-transform: uppercase;
+      }
+    }
+    @media screen and (max-width: 39.9375em) {
+      background: $deep-blue;
+    }
+  }
+
+  .header__main {
+    position: relative;
+    color: $white;
+    .logo {
+      margin: 10px 0;
+      a {
+        font-size: 24px!important;
+        text-transform: uppercase;
+      }
+    }
+    .top-menu-block {
+      font-family: 'Montserrat-Regular', sans-serif;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 99999;
+      a {
+        color: $white;
+        text-transform: uppercase;
+        font-size: 14px;
+        &:hover {
+          color: $deep-blue;
+        }
+        i {
+          margin-right: -2.75rem;
+        }
+        &::after {
+          content: none!important;
+          display: none;
+        }
+      }
+      .menu-vertical {
+        border: none;
+        background: $black;
+        opacity: 0.87;
+        li {
+          padding-left: 10px;
+        }
+      }
+      .active {
+        >a {
+          background: none;
+          border-bottom: 2px solid #ff4081;
+          padding-bottom: 8px;
+        }
+      }
+      .right-items {
+        margin-top: 15px;
+        a {
+            margin-right: 30px;
+          i {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+    .orbit-caption {
+      height: 100%;
+      text-align: center;
+      background-color: rgba(10,10,10,0.8);
+      .info-block {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -356px;
+        h2 {
+          color: $gray-light;
+          font-size: 28px;
+          text-transform: uppercase;
+        }
+        h1 {
+          font-size: 42px;
+          text-transform: uppercase;
+        }
+        .button {
+          border-radius: 20px;
+          background: $deep-blue;
+          text-transform: uppercase;
+        }
+        .info-block__author {
+          .date {
+            font-size: 12px;
+            color: $gray-light;
+          }
+        }
+        .blog-feedback {
+          font-size: 12px;
+          color: $gray-light;
+          i {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .title-bar {
+      background: $blue;
+      .mobile-logo {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+      }
+      a {
+        i {
+          font-size: 24px;
+        }
+      }
+    }
+    .mobile-menu-block {
+      background: $black-light;
+      width: 100%;
+    }
+  }
+}

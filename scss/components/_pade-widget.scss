@@ -1,0 +1,49 @@
+.pages-widget {
+  color: $gray;
+  .pages-widget-list {
+    background: none;
+    padding: none;
+    font-size: 14px;
+    .accordion-item {
+      margin-bottom: 5px;
+      .accordion-title {
+        text-transform: uppercase;
+        font-weight: bold;
+        border-color: $gray;
+        border-bottom: $accordion-border;
+        border-radius: 3px;
+        &:hover,&:focus {
+            background: none;
+          }
+        &::before {
+          font-size: 20px;
+        }
+      }
+      .accordion-content {
+        background: none;
+        border-color: $gray;
+        border-bottom: $accordion-border;
+        padding: 0;
+        li {
+          padding: 10px 0;
+          a {
+            color: $gray;
+            &:hover {
+              color: $white;
+            }
+          }
+        }
+      }
+      a {
+        color: $gray;
+      }
+    }
+    .is-active {
+      a {
+        border-bottom: none!important;
+        border-bottom-left-radius: 0!important;
+        border-bottom-right-radius: 0!important;
+      }
+    }
+  }
+}

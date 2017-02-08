@@ -1,0 +1,50 @@
+.sorting-wrapper {
+  @media screen and (max-width: 63.9375em) {
+    margin-top: 90px;
+  }
+  .sorting-block {
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-collapse:separate;
+    border-spacing:20px;
+    li:first-child {
+      border: none;
+      background: none;
+      font-weight: bold;
+    }
+    li {
+      margin-right: 20px;
+      a {
+        color: $black;
+        border-radius: 20px;
+        border: 1px solid $light-gray;
+        background-color: $light-gray;
+        &:hover {
+          border: 1px solid #3f51b5;
+          background: none;
+          color: $deep-blue;
+        }
+      }
+    }
+    .active {
+      a {
+        background: none;
+        border-radius: 20px;
+        color: $deep-blue;
+        border: 1px solid $deep-blue;
+      }
+    }
+  }
+  .sorting-block-mobile {
+    .active {
+      a {
+        background: none;
+        color: $deep-blue;
+      }
+    }
+    a {
+      color: $black;
+    }
+  }
+}
