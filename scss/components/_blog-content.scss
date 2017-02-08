@@ -2,8 +2,7 @@
   background: $white;
   font-size: 16px;
   border-radius: 5px;
-  -webkit-box-shadow: 1px 2px 1px 1px #dfdfdf;
-  box-shadow: 1px 2px 1px 1px #dfdfdf;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   overflow: hidden;
     .blog__picture {
         position: relative;
@@ -100,9 +99,9 @@
   }
 }
 .more-btn-block  {
-  vertical-align: middle;
   a {
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
     span {
       display: inline-block;
     }
