@@ -1,0 +1,31 @@
+.subscribe-block {
+  position: relative;
+  background-image: url(../../assets/img/woodland-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.subscribe {
+  position: relative;
+  padding: 75px 0;
+  color: $white;
+  form {
+    padding-top: 15px;
+    .input-subscribe {
+      width: 60%;
+      display: inline-block;
+      background: none;
+      border-radius: 20px;
+      margin: 0;
+      margin-right: 25px;
+    }
+    .button {
+      margin: 0;
+      border-radius: 20px;
+      background-color: $deep-blue;
+    }
+  }
+  span {
+    font-size: 42px;
+    font-weight: bold;
+  }
+}

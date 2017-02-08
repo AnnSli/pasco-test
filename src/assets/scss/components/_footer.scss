@@ -1,0 +1,132 @@
+.footer-main {
+  background: $black-bg;
+  padding: 50px 0 70px;
+  h4 {
+    color: $white;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-bottom: 25px;
+  }
+  .footer-main-mobile {
+    color: $gray;
+    font-size: 14px;
+    h3 {
+      color: $white;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding-bottom: 20px;
+    }
+    .footer-main-mobile__project-descr {
+      .button {
+        border-radius: 20px;
+        color: $gray-light;
+        background: $gray-browny;
+      }
+    }
+    .footer-main-mobile__categories {
+      li {
+        font-size: 14px;
+        padding: 10px 0;
+        border-color: $gray;
+        a {
+          color: $gray;
+          width: 100%;
+          display: block;
+          span {
+            float: right;
+          }
+        }
+      }
+    }
+    .footer-main-mobile__tags {
+      a {
+        color: $gray;
+        border: 1px solid $gray;
+        border-radius: 3px;
+        padding: 10px;
+        display: inline-block;
+        margin: 0 5px 5px;
+      }
+    }
+    .footer-main-mobile__flickr {
+      li {
+        display: inline-block;
+        width: 49%;
+        padding: 10px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+.footer-nav {
+  font-family: 'Montserrat-Regular', sans-serif;
+  background: $gray-browny;
+  .menu {
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 35px 0;
+    li {
+      padding-right: 35px;
+      a {
+        padding: 0;
+        color: $white;
+        &:hover {
+          color: $gray-light;
+        }
+      }
+    }
+  }
+  .footer-nav__right-block {
+    display: flex;
+    align-items: center;
+    .search {
+      position: relative;
+      color: $gray-light;
+      margin: 20px 0;
+      .input-search {
+        background: none;
+        font-size: 14px;
+        border-color: $gray-light;
+        border-radius: 20px;
+        margin-bottom: 0;
+      }
+      i {
+        position: absolute;
+        top: 12px;
+        right: 18px;
+        font-size: 18px;
+      }
+    }
+    .lang {
+      text-transform: uppercase;
+      color: $gray-light;
+      display: flex;
+      align-items: center;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+  .footer-nav-mobile {
+    color: $gray-light;
+    .menu {
+      padding: 0;
+
+      a {
+        color: $gray-light;
+        &:hover {
+          color: $white;
+        }
+        i {
+          font-size: 18px;
+        }
+      }
+    }
+    .footer-nav-mobile__copywrite-block {
+      text-align: center;
+      padding-top: 20px;
+    }
+  }
+}

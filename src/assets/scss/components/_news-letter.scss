@@ -1,0 +1,21 @@
+.news-letter {
+  form {
+    input, textarea {
+      background: none;
+      color: $gray;
+      border-color: $gray;
+      border-radius: 3px;
+      font-size: 14px;
+      &:focus {
+        background: none;
+      }
+    }
+    button {
+      width: 100%;
+      border-radius: 3px;
+      background: $gray-browny;
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+  }
+}

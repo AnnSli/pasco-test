@@ -1,0 +1,133 @@
+$topbar-background: none;
+//colors
+$black-light: #191919;
+$gray-light: #5a5a5a;
+$deep-blue: #303f9f;
+$gray: #909090;
+$light-blue: #55acee;
+$gray-browny: #303030;
+$black-bg: #212121;
+$blue: #3f51b5;
+$accordion-border: 1px solid $gray;
+
+body {
+  font-family: 'OpenSans';
+}
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+}
+h2,h3,h4,h5 {
+  font-family: 'Montserrat-Regular', sans-serif;
+}
+button {
+  font-family: 'Montserrat-Regular', sans-serif;
+}
+
+.vertical-border {
+  border-right: 1px solid $gray-light;
+  padding-right: 10px;
+}
+.opacity-bg {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#212121+0,212121+100&0+0,0.2+52,0.53+100 */
+background: -moz-linear-gradient(top,  rgba(33,33,33,0) 0%, rgba(33,33,33,0.2) 52%, rgba(33,33,33,0.53) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(33,33,33,0) 0%,rgba(33,33,33,0.2) 52%,rgba(33,33,33,0.53) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(33,33,33,0) 0%,rgba(33,33,33,0.2) 52%,rgba(33,33,33,0.53) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00212121', endColorstr='#87212121',GradientType=0 ); /* IE6-9 */
+}
+ul {
+  list-style: none;
+  margin: 0;
+}
+p, h3 {
+  margin: 0;
+}
+:focus {
+  outline: none;
+}
+.pd-xxs {
+  padding: 5px;
+}
+.pd-r-xxs {
+  padding-right: 5px;
+}
+.pd-l-xxs {
+  padding-left: 5px;
+}
+.pd-t-xxs {
+  padding-top: 5px;
+}
+.pd-b-xxs {
+  padding-bottom: 5px;
+}
+.pd-xs {
+  padding: 10px;
+}
+.pd-r-xs {
+  padding-right: 10px;
+}
+.pd-l-xs {
+  padding-left:10px;
+}
+.pd-t-xs {
+  padding-top: 10px;
+}
+.pd-b-xs {
+  padding-bottom: 10px;
+}
+.pd-s {
+  padding: 20px;
+}
+.pd-r-s {
+  padding-right: 20px;
+}
+.pd-l-s {
+  padding-left: 20px;
+}
+.pd-t-s {
+  padding-top: 20px;
+}
+.pd-b-s {
+  padding-bottom: 20px;
+}
+.mg-r-xs {
+  margin-right: 10px;
+}
+.mg-l-xs {
+  margin-left: 10px;
+}
+.mg-t-xs {
+  margin-top: 10px;
+}
+.mg-b-xs {
+  margin-bottom: 10px;
+}
+.mg-xs {
+  margin: 10px;
+}
+.mg-s {
+  margin: 20px;
+}
+.mg-r-s {
+  margin-right: 20px;
+}
+.mg-l-s {
+  margin-left: 20px;
+}
+.mg-t-s {
+  margin-top: 20px;
+}
+.mg-b-s {
+  margin-bottom: 20px;
+}
+.top-separator {
+  border-top: 1px solid $light-gray;
+}
+.bottom-separator {
+  border-bottom: 1px solid $gray;
+}
+.bottom-separator-gray {
+  border-bottom: 1px solid #ddd;
+}
+.top-separator-gray {
+  border-top: 1px solid $gray;
+}

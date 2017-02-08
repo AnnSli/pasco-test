@@ -8,11 +8,6 @@
   "main": "index.html",
   "license": "MIT",
   "homepage": "http://foundation.zurb.com",
-  "dependencies": {
-    "foundation-sites": "~6.3.0",
-    "motion-ui": "~1.2.2",
-    "components-font-awesome": "^4.7.0"
-  },
   "ignore": [
     "**/.*",
     "node_modules",
@@ -20,5 +15,10 @@
     "test",
     "tests"
   ],
+  "dependencies": {
+    "foundation-sites": "~6.3.0",
+    "motion-ui": "~1.2.2",
+    "components-font-awesome": "^4.7.0"
+  },
   "private": true
 }
